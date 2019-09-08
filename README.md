@@ -1,7 +1,5 @@
 # Nonspecifi(c/ed) Caffeine Software
-<p align="center">
-  <img https://cdn.discordapp.com/attachments/391248054025715724/620077735678836766/nonspecifiedcaffeine.png>
-</p>
+![GitHub Logo](https://cdn.discordapp.com/attachments/391248054025715724/620077735678836766/nonspecifiedcaffeine.png)
 ## The world of whatever I just made
 Documentation made in Google Docs (I wish I was kidding.)
 Made by @thehiddenmonkey and @Blckbrry-Pi
