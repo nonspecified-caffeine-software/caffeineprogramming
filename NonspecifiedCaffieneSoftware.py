@@ -12,3 +12,7 @@ class caffeineFunctions:
     print(0);
   class divideEquals:
     print(0);
+  class dontPrint;
+    print(0);
+  class whiteSpace;
+    print(0);
