@@ -1,5 +1,7 @@
 # Nonspecifi(c/ed) Caffeine Software
-![COOLIO LOGO](https://cdn.discordapp.com/attachments/391248054025715724/620077735678836766/nonspecifiedcaffeine.png)
+<p align="center">
+  <img https://cdn.discordapp.com/attachments/391248054025715724/620077735678836766/nonspecifiedcaffeine.png>
+</p>
 ## The world of whatever I just made
 Documentation made in Google Docs (I wish I was kidding.)
 Made by @thehiddenmonkey and @Blckbrry-Pi
