@@ -16,3 +16,5 @@ class caffeineFunctions:
     print(0);
   class whiteSpace:
     print(0);
+  class intSign:
+    print(0);
