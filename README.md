@@ -4,3 +4,6 @@
 Documentation made in Google Docs (I wish I was kidding.)
 Made by @thehiddenmonkey and @Blckbrry-Pi
 One day there was an idea. An idea formed by two friends who were really bored and wanted to be stupid for some reason. And because of that they decided that they should make a python based programming language that is horrible to program in.
+## Functions
+### dontPrint()
+After every ten lines, dontPrint() is required. Otherwise, "CAFFEINE!!!" will be printed.
