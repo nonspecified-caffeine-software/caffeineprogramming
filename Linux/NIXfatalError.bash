@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 errorCode=$(( $RANDOM % 32767 + 1 ))
 fiftyFifty=$(( $RANDOM % 2 + 1 ))
