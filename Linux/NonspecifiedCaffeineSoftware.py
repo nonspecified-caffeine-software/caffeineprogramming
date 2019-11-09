@@ -1,10 +1,7 @@
 #Python Script to run when opening a .NCS file
 global SyntaxError
 lineNum = 1
-changeStart = -1
-
-
-
+linePC = -1
 printCaffeine = True
     
 class caffeineFunctions:
@@ -26,7 +23,9 @@ class caffeineFunctions:
 
         def run(self):
             global printCaffeine
+            global linePC
             printCaffeine = False
+            linePC = -1
 
         def Check(self, inLine):
             if inLine == ';;dontPrint();': 
@@ -45,15 +44,19 @@ class caffeineFunctions:
 
 def changePC():
     global printCaffeine
-    global changeStart
-    changeStart += 1
-    if changeStart > 1:
+    global linePC
+    linePC += 1
+    if linePC > 0:
         printCaffeine = True
+    else:
+        printCaffeine = False
 
 
 def getLine(x):
     if x%10 == 0 and printCaffeine == True: 
         return ';;print("CAFFEINE!");'
+    elif x == 19 and printCaffeine == False:
+        changePC()
     elif x%10 == 0 and printCaffeine == False:
         changePC()
     line = input("")
@@ -62,8 +65,7 @@ while True:
     currentLine = getLine(lineNum)
     if currentLine != ';;print("CAFFEINE!");':
         caffeineFunctions.dontPrint.Check(None, currentLine)
-        lineNum += 1
     else:
         print("CAFFEINE!!!!!!!!!")
         currentLine = getLine(lineNum+1)
-        lineNum += 1
+    lineNum += 1
