@@ -24,7 +24,7 @@ int main() {
         content += ncsFile.get();
    ncsFile.close();
    pyFile << content;
-	system("NIXfatalError.bash");
+	system("chmod +x NIXfatalError.bash");
 	system("python3 out.py");
 	return 0;
 }
