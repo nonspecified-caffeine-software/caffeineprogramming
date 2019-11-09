@@ -24,6 +24,7 @@ int main() {
         content += ncsFile.get();
    ncsFile.close();
    pyFile << content;
+	system("chmod +x MACfatalError.bash");
 	system("python3 out.py");
 	return 0;
 }
