@@ -20,8 +20,9 @@ int main() {
 		ncsFile.open(fileName);
 	}
 	pyFile.open("out.py");
-    for(i=0 ; ncsFile.eof()!=true ; i++)
+    for(i=0 ; ncsFile.eof()!=true ; i++) {
         content += ncsFile.get();
+    }
    ncsFile.close();
    pyFile << content;
 	system("chmod +x NIXfatalError.bash");
